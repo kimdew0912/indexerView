@@ -12,6 +12,7 @@
 ****
 
 ### 2. 사용 예
+'''
  [layout]
   <com.kimdew.indexerview.IndexerView
         android:id="@+id/indexer"
@@ -21,7 +22,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@id/lvSample"
         android:paddingRight="8dp" />
-        
+'''
+
+'''
  [source]
   IndexerView indexer = (IndexerView) findViewById(R.id.indexer);
   indexer.setIndexType(IndexerView.INDEX_TYPE_CHOSUNG);   // or INDEX_TYPE_COMPLETE_WORD(default)
@@ -40,3 +43,4 @@
           showIndexToast(strText);
       }
   });
+'''
