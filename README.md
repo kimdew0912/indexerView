@@ -2,6 +2,9 @@
 
 
 # ListView, RecyclerView 등등의 출력 view계열에서 빠른 데이터 검색을 위한 indexerView
+
+### Screenshot
+![Screenshot](indexer_view.jpg)
 ### 1. 기능
   1. 최상단으로 이동할 수 있는 indexer 표출(useTopIndicator)
   2. 숫자, 알파벳등 ascii 코드는 하나의 indexer 로 표출(useMergeAscii)
