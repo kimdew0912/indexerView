@@ -2,12 +2,12 @@
 
 
 #개요 : ListView, RecyclerView 등등의 출력 view계열에서 빠른 데이터 검색을 위한 indexerView
-###기능 : 
- #1) 최상단으로 이동할 수 있는 indexer 표출(useTopIndicator)
- #2) 숫자, 알파벳등 ascii 코드는 하나의 indexer 로 표출(useMergeAscii)
- 3) 한글 - 초성, 완성형 indexer 설정(자동 파싱)
- 4) indexer Text Color 설정(setIndexTextColor)
- 5) indexer 선택 시 콜백 기능(setOnClickIndexBar)
+기능 : <br/>
+ 1) 최상단으로 이동할 수 있는 indexer 표출(useTopIndicator)<br/>
+ 2) 숫자, 알파벳등 ascii 코드는 하나의 indexer 로 표출(useMergeAscii)<br/>
+ 3) 한글 - 초성, 완성형 indexer 설정(자동 파싱)<br/>
+ 4) indexer Text Color 설정(setIndexTextColor)<br/>
+ 5) indexer 선택 시 콜백 기능(setOnClickIndexBar)<br/>
 사용 예 :
  [layout]
   <com.kimdew.indexerview.IndexerView
