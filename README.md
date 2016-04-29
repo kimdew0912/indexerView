@@ -44,3 +44,9 @@
       }
   });
 ```
+
+### 3. 저작권
+
+
+### 4. 사용한 Open Library
+  1. 초성 필터 : https://github.com/bangjunyoung/KoreanTextMatcher

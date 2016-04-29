@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
 
         // indexer view
         IndexerView indexer = (IndexerView) findViewById(R.id.indexer);
-        indexer.setIndexType(IndexerView.INDEX_TYPE_CHOSUNG);
-        indexer.setIndexTextColor(Color.RED);
+        indexer.setIndexType(IndexerView.INDEX_TYPE_CHOSUNG);   // or INDEX_TYPE_COMPLETE_WORD(default)
+        indexer.setIndexTextColor(Color.RED);   // default : 0xff9d9d9d
         indexer.setTopIndicator('^');           // default : @
         indexer.useTopIndicator(true);          // default : true
         indexer.useMergeAscii(true);            // default : true
